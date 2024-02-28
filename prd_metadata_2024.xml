@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" ?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="idIQFUYvJ0ze1ZMgQxdqRVjvQjRc8" entityID="https://login.gov.il/nidp/saml2/metadata"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#idIQFUYvJ0ze1ZMgQxdqRVjvQjRc8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>O53rCc/ixIPCIML/7I4VdJ3I4gu7lprvr+KdZphg/2Y=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+LIMx8Gj2nEOTX4c8/HUbdcHjYNtr7iSPZ+uEr1zO25hLQWmpHd1ZEcxamp3Uc573NJ/jFd5xh26X
+TwUcf/BklkMgD01Lq4x9MxjCAAk5KpU6/TnikfCoGG1ManKIV7M3hMxgTuihD8kXTRWybaFEbAn6
+bA+CU4svKWYG9QUEHeP3Lgq5j5RiBo5mjY+CHC1wPEGosyGMOOOGVgtC6LxMd5O6QWClurNu3+Xt
+PCnWeQgeeFjhRGoGCXtNGT1lLR0BPLtM+ZOINS7yAUkLEeNvsA6oRdqoVOoB7bfOFhTqRowSlA5V
+3Zd5QTZ4FpbMLmI+15zyS60QAQgyGPKVKfTvdg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGKjCCBBKgAwIBAgITOQAArQgPdzmrJon2eQAAAACtCDANBgkqhkiG9w0BAQsFADBKMQswCQYD
+VQQGEwJJTDEdMBsGA1UEChMUR292ZXJubWVudCBvZiBJc3JhZWwxHDAaBgNVBAMTE1RBTVVaLURl
+dmljZXMgQ0EgRzIwHhcNMjMxMTA1MDYyODU2WhcNMjgwMjIwMDkzODM3WjBnMQswCQYDVQQGEwJJ
+TDEPMA0GA1UECBMGSXNyYWVsMRIwEAYDVQQHEwlKZXJ1c2FsZW0xDDAKBgNVBAoTA1BNTzEMMAoG
+A1UECxMDQ0lPMRcwFQYDVQQDEw5zaWduaW5nLmdvdi5pbDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMKOy1JqjOpm4y8kIFwc6B8aZfFwFgJ1dxYTL2YnuCbb8CThR+iFx//9t5KyluK/
+OFC8wyCo9lEbam/mMQQWSrNIj3U7nxrrZaMENEvOTSiPP2HhRPnLcu5e3aLAZMF/Kpv7S955Dxoa
+iUkEHGkc50LzOVAskEB9QsYpqvEU/OQ4thmOOJvz4X+Qop1ASjwl5WKOGjWI1J8XiDSoQb0tTrzw
+xXaY/zlDInhK/X1HocfgGNuJhHvNIX56Xri7mJfr2yiN8D/blH3F/LzDJRBnCoC/iiNJu6JdhdY6
+wzQtvCVfAPfk5qwa2Gr4Rjp6Jip+3Mq2WiAx7oJS5Jw3PknvFxUCAwEAAaOCAeowggHmMB0GA1Ud
+DgQWBBQpaZ7+xf8MWm7RgWAy3j0I7WRc6jAfBgNVHSMEGDAWgBS1Q9AOxGD5aPOAPtj0UJZ9bJnZ
+aTBuBgNVHR8EZzBlMGOgYaBfhi1odHRwOi8vY3JsLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpE
+ZXZHMi5jcmyGLmh0dHA6Ly9jcmwyLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpEZXZHMi5jcmww
+gYUGCCsGAQUFBwEBBHkwdzA5BggrBgEFBQcwAoYtaHR0cDovL2NybC50YW11ei5nb3YuaWwvcHVi
+bGljL1RhbXV6RGV2RzIuY2VyMDoGCCsGAQUFBzAChi5odHRwOi8vY3JsMi50YW11ei5nb3YuaWwv
+cHVibGljL1RhbXV6RGV2RzIuY2VyMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIKAgSyC+tk4
+gfWVMvbxU4KsrQoYh5TORYWGzHQCAWQCAQgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMB
+MAsGA1UdDwQEAwIEsDAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMBMBkG
+A1UdEQQSMBCCDnNpZ25pbmcuZ292LmlsMA0GCSqGSIb3DQEBCwUAA4ICAQAvUOX0gJ46OSQbCI3w
+6L5KAgP8fSuLJLBVM8J0YSJdcZtzuCMokwWvL6RTbq6WFuTaLZYQv085s/xPw3CIvQMLZCcH5Vot
+BVj2N2r74BL2wVTPOHp26RWpmYIt21DJh2aplSndA31TfGgFam6R1togonx0fqfZj/Zqbam47Vn9
+D4infd+YacGm18+5D9TnbYw4ArqDJjdx9oGg3wj9DjBLYTGJzpQ6bHb/qS+mhsYRHrptIo34Pj4/
+u3QVBLGsNVCiG4NeY9lkCK8LxIjJuibOmCAV2tSjuOnb197Bd9QCRo264gabt/a06jp5Nwi9YH8M
+7INJEWHypUJnnMw7nN2WOt3wyO7T7EPpz0PutTQ3Y2ulT9Mzr2t4oNgopdXdk1/k2Gcl5axgHxG/
+YohGCnKXjZBbuXpN8cVXT5XiHw+iEUczoSHLzDmuDLc+cc4Mz5lbKMiZpzTvWdpmfieGIXVaAUFc
+74VYDIR2BRki8ByOZtOjhUz8MUS96ZuzVEIAIj8j/YaCAKRCXIlIVIj81QZRha/drrvTq2/8avTN
+YhskWgJyaKvl9I94A3O5k6/MYzmyjkzS7A1OOfEN1CDRA3K4fM4u06dpurq6w8Jv96luR4+ZNCdi
+BpHALkSJrEBvah5uTH1U1QYqMNNVmUthRQYlMmJ7orGS1R1kX0r6uxxlgQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:AttributeAuthorityDescriptor ID="id2og_IfpOtvsqrptZ2mc_o8i7dZI" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGKjCCBBKgAwIBAgITOQAArQgPdzmrJon2eQAAAACtCDANBgkqhkiG9w0BAQsFADBKMQswCQYD
+VQQGEwJJTDEdMBsGA1UEChMUR292ZXJubWVudCBvZiBJc3JhZWwxHDAaBgNVBAMTE1RBTVVaLURl
+dmljZXMgQ0EgRzIwHhcNMjMxMTA1MDYyODU2WhcNMjgwMjIwMDkzODM3WjBnMQswCQYDVQQGEwJJ
+TDEPMA0GA1UECBMGSXNyYWVsMRIwEAYDVQQHEwlKZXJ1c2FsZW0xDDAKBgNVBAoTA1BNTzEMMAoG
+A1UECxMDQ0lPMRcwFQYDVQQDEw5zaWduaW5nLmdvdi5pbDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMKOy1JqjOpm4y8kIFwc6B8aZfFwFgJ1dxYTL2YnuCbb8CThR+iFx//9t5KyluK/
+OFC8wyCo9lEbam/mMQQWSrNIj3U7nxrrZaMENEvOTSiPP2HhRPnLcu5e3aLAZMF/Kpv7S955Dxoa
+iUkEHGkc50LzOVAskEB9QsYpqvEU/OQ4thmOOJvz4X+Qop1ASjwl5WKOGjWI1J8XiDSoQb0tTrzw
+xXaY/zlDInhK/X1HocfgGNuJhHvNIX56Xri7mJfr2yiN8D/blH3F/LzDJRBnCoC/iiNJu6JdhdY6
+wzQtvCVfAPfk5qwa2Gr4Rjp6Jip+3Mq2WiAx7oJS5Jw3PknvFxUCAwEAAaOCAeowggHmMB0GA1Ud
+DgQWBBQpaZ7+xf8MWm7RgWAy3j0I7WRc6jAfBgNVHSMEGDAWgBS1Q9AOxGD5aPOAPtj0UJZ9bJnZ
+aTBuBgNVHR8EZzBlMGOgYaBfhi1odHRwOi8vY3JsLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpE
+ZXZHMi5jcmyGLmh0dHA6Ly9jcmwyLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpEZXZHMi5jcmww
+gYUGCCsGAQUFBwEBBHkwdzA5BggrBgEFBQcwAoYtaHR0cDovL2NybC50YW11ei5nb3YuaWwvcHVi
+bGljL1RhbXV6RGV2RzIuY2VyMDoGCCsGAQUFBzAChi5odHRwOi8vY3JsMi50YW11ei5nb3YuaWwv
+cHVibGljL1RhbXV6RGV2RzIuY2VyMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIKAgSyC+tk4
+gfWVMvbxU4KsrQoYh5TORYWGzHQCAWQCAQgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMB
+MAsGA1UdDwQEAwIEsDAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMBMBkG
+A1UdEQQSMBCCDnNpZ25pbmcuZ292LmlsMA0GCSqGSIb3DQEBCwUAA4ICAQAvUOX0gJ46OSQbCI3w
+6L5KAgP8fSuLJLBVM8J0YSJdcZtzuCMokwWvL6RTbq6WFuTaLZYQv085s/xPw3CIvQMLZCcH5Vot
+BVj2N2r74BL2wVTPOHp26RWpmYIt21DJh2aplSndA31TfGgFam6R1togonx0fqfZj/Zqbam47Vn9
+D4infd+YacGm18+5D9TnbYw4ArqDJjdx9oGg3wj9DjBLYTGJzpQ6bHb/qS+mhsYRHrptIo34Pj4/
+u3QVBLGsNVCiG4NeY9lkCK8LxIjJuibOmCAV2tSjuOnb197Bd9QCRo264gabt/a06jp5Nwi9YH8M
+7INJEWHypUJnnMw7nN2WOt3wyO7T7EPpz0PutTQ3Y2ulT9Mzr2t4oNgopdXdk1/k2Gcl5axgHxG/
+YohGCnKXjZBbuXpN8cVXT5XiHw+iEUczoSHLzDmuDLc+cc4Mz5lbKMiZpzTvWdpmfieGIXVaAUFc
+74VYDIR2BRki8ByOZtOjhUz8MUS96ZuzVEIAIj8j/YaCAKRCXIlIVIj81QZRha/drrvTq2/8avTN
+YhskWgJyaKvl9I94A3O5k6/MYzmyjkzS7A1OOfEN1CDRA3K4fM4u06dpurq6w8Jv96luR4+ZNCdi
+BpHALkSJrEBvah5uTH1U1QYqMNNVmUthRQYlMmJ7orGS1R1kX0r6uxxlgQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGRzCCBC+gAwIBAgITOQAArQeWAgb7XrO7PQAAAACtBzANBgkqhkiG9w0BAQsFADBKMQswCQYD
+VQQGEwJJTDEdMBsGA1UEChMUR292ZXJubWVudCBvZiBJc3JhZWwxHDAaBgNVBAMTE1RBTVVaLURl
+dmljZXMgQ0EgRzIwHhcNMjMxMTA1MDYyNzI1WhcNMjgwMjIwMDkzODM3WjBqMQswCQYDVQQGEwJJ
+TDEPMA0GA1UECBMGSXNyYWVsMRIwEAYDVQQHEwlKZXJ1c2FsZW0xDDAKBgNVBAoTA1BNTzEMMAoG
+A1UECxMDQ0lPMRowGAYDVQQDExFlbmNyeXB0aW9uLmdvdi5pbDCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAM9GAtK7cc+pZ5wMoTYq6wRLqUPOP+eei6XwHtgDiS45oUm7LKmnF1aRCK4m
+uTzqihJzPEZrFfjeL7Jrz2lUn87zAxEK7L+pe9GmwlmrGEyRaw3pXKrc0Gy+1cWb4vFRr4RZ2rK5
+HwlFpAB86ekTx6Uv1E6U1UePKbZRlOLBDHM637yjNrqcbKgf+KzDXkVICKGzfmT63g7xDlzchE9W
+k7f4XWxq8zYhn9UL2O38QU82f2j1WnKZi689IQ/XMnQSF/M79+zHHcTvBMSaF1/c/Vuk+HBYwtDc
+fcVHQ1b/gCnq8Une9j4Mz7xpBAww9w0PeTyaen5uKGPKP2qZhy31/CMCAwEAAaOCAgQwggIAMB0G
+A1UdDgQWBBRQ13wKIIH8CzUK3yjP/7/jKBRUEzAfBgNVHSMEGDAWgBS1Q9AOxGD5aPOAPtj0UJZ9
+bJnZaTBuBgNVHR8EZzBlMGOgYaBfhi1odHRwOi8vY3JsLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFt
+dXpEZXZHMi5jcmyGLmh0dHA6Ly9jcmwyLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpEZXZHMi5j
+cmwwgYUGCCsGAQUFBwEBBHkwdzA5BggrBgEFBQcwAoYtaHR0cDovL2NybC50YW11ei5nb3YuaWwv
+cHVibGljL1RhbXV6RGV2RzIuY2VyMDoGCCsGAQUFBzAChi5odHRwOi8vY3JsMi50YW11ei5nb3Yu
+aWwvcHVibGljL1RhbXV6RGV2RzIuY2VyMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIKAgSyC
++tk4gfWVMvbxU4KsrQoYh5TORYWGzHQCAWQCAQgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMBMAsGA1UdDwQEAwIEsDAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMB
+MDMGA1UdEQQsMCqCEWVuY3J5cHRpb24uZ292LmlsghV3d3cuZW5jcnlwdGlvbi5nb3YuaWwwDQYJ
+KoZIhvcNAQELBQADggIBAAlumDd4ZxXzqIG6ECIBBQuikGS9EAUoF2fCngHiplPITEER6qiVl3Vy
+HiXrrvpU3giVOC/nUSrrKJ8sJtk5NAucqvSLBTfK/81itDJX2naeLbSAnqs+zh9twDOQh7rwDaYN
+hsSd3eyInGzt8SlvPQQY1XIpyoKICsKKRsd5NB/ibnmojF5+x24Zo7mKbA6o1qJMzcWCt3WGO7z6
+J9I/Av+N90PT+o/bcAZ9006MUnEJvHwPzTNc3tPiX2xhlmw2EUjHaBzZt9ULV9G7vCW+T01eOB8Z
+iQzmEHkqYz68IZLvj8DYDkMWkzqSU0ElYtzrx9WtesxjxOKAVlvk2gZaJ3Zjn5pU292463EniIVm
+Q2bnFRfDtuDAAb4aCrQcEng0yd9d2jDsrepZ/9Mg6zCeyhVBfvpHz0EkpDQOLOMnhGpGTWY4b/FC
+BuOurHHp84vo8I+JH7glhLa20ab8cg0RfSWOHbfzm/SIXwT3je9C/tfP4ni0RrvFZBoJCb6zHraT
+A8eJ5xDxXRV0KQFvZtTfhnzPuB6zKGU8Ci8iqH0bDX8ooeIn/CLiLrHPhhADXB+FwFhQNdgyXdJv
+nurPrBJ9NdWcWHTQ6BiMEF4nplDLQ3xM8fDZu6zMzvaLUpFdEVeB4AR/l+5eMWWAhQT5mVkPGFOs
+MU4QW58NPc2iA8TwxBB0
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+</md:KeyDescriptor>
+<md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.gov.il/nidp/saml2/soap"/>
+<md:AssertionIDRequestService Binding="urn:oasis:names:tc:SAML:2.0:bindings:URI" Location="https://login.gov.il/nidp/saml2/assertion"/>
+<md:AssertionIDRequestService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.gov.il/nidp/saml2/soap"/>
+</md:AttributeAuthorityDescriptor>
+<md:IDPSSODescriptor ID="idyLDfpsYc72yEGRoUcOjwq3DsBy4" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGKjCCBBKgAwIBAgITOQAArQgPdzmrJon2eQAAAACtCDANBgkqhkiG9w0BAQsFADBKMQswCQYD
+VQQGEwJJTDEdMBsGA1UEChMUR292ZXJubWVudCBvZiBJc3JhZWwxHDAaBgNVBAMTE1RBTVVaLURl
+dmljZXMgQ0EgRzIwHhcNMjMxMTA1MDYyODU2WhcNMjgwMjIwMDkzODM3WjBnMQswCQYDVQQGEwJJ
+TDEPMA0GA1UECBMGSXNyYWVsMRIwEAYDVQQHEwlKZXJ1c2FsZW0xDDAKBgNVBAoTA1BNTzEMMAoG
+A1UECxMDQ0lPMRcwFQYDVQQDEw5zaWduaW5nLmdvdi5pbDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMKOy1JqjOpm4y8kIFwc6B8aZfFwFgJ1dxYTL2YnuCbb8CThR+iFx//9t5KyluK/
+OFC8wyCo9lEbam/mMQQWSrNIj3U7nxrrZaMENEvOTSiPP2HhRPnLcu5e3aLAZMF/Kpv7S955Dxoa
+iUkEHGkc50LzOVAskEB9QsYpqvEU/OQ4thmOOJvz4X+Qop1ASjwl5WKOGjWI1J8XiDSoQb0tTrzw
+xXaY/zlDInhK/X1HocfgGNuJhHvNIX56Xri7mJfr2yiN8D/blH3F/LzDJRBnCoC/iiNJu6JdhdY6
+wzQtvCVfAPfk5qwa2Gr4Rjp6Jip+3Mq2WiAx7oJS5Jw3PknvFxUCAwEAAaOCAeowggHmMB0GA1Ud
+DgQWBBQpaZ7+xf8MWm7RgWAy3j0I7WRc6jAfBgNVHSMEGDAWgBS1Q9AOxGD5aPOAPtj0UJZ9bJnZ
+aTBuBgNVHR8EZzBlMGOgYaBfhi1odHRwOi8vY3JsLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpE
+ZXZHMi5jcmyGLmh0dHA6Ly9jcmwyLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpEZXZHMi5jcmww
+gYUGCCsGAQUFBwEBBHkwdzA5BggrBgEFBQcwAoYtaHR0cDovL2NybC50YW11ei5nb3YuaWwvcHVi
+bGljL1RhbXV6RGV2RzIuY2VyMDoGCCsGAQUFBzAChi5odHRwOi8vY3JsMi50YW11ei5nb3YuaWwv
+cHVibGljL1RhbXV6RGV2RzIuY2VyMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIKAgSyC+tk4
+gfWVMvbxU4KsrQoYh5TORYWGzHQCAWQCAQgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMB
+MAsGA1UdDwQEAwIEsDAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMBMBkG
+A1UdEQQSMBCCDnNpZ25pbmcuZ292LmlsMA0GCSqGSIb3DQEBCwUAA4ICAQAvUOX0gJ46OSQbCI3w
+6L5KAgP8fSuLJLBVM8J0YSJdcZtzuCMokwWvL6RTbq6WFuTaLZYQv085s/xPw3CIvQMLZCcH5Vot
+BVj2N2r74BL2wVTPOHp26RWpmYIt21DJh2aplSndA31TfGgFam6R1togonx0fqfZj/Zqbam47Vn9
+D4infd+YacGm18+5D9TnbYw4ArqDJjdx9oGg3wj9DjBLYTGJzpQ6bHb/qS+mhsYRHrptIo34Pj4/
+u3QVBLGsNVCiG4NeY9lkCK8LxIjJuibOmCAV2tSjuOnb197Bd9QCRo264gabt/a06jp5Nwi9YH8M
+7INJEWHypUJnnMw7nN2WOt3wyO7T7EPpz0PutTQ3Y2ulT9Mzr2t4oNgopdXdk1/k2Gcl5axgHxG/
+YohGCnKXjZBbuXpN8cVXT5XiHw+iEUczoSHLzDmuDLc+cc4Mz5lbKMiZpzTvWdpmfieGIXVaAUFc
+74VYDIR2BRki8ByOZtOjhUz8MUS96ZuzVEIAIj8j/YaCAKRCXIlIVIj81QZRha/drrvTq2/8avTN
+YhskWgJyaKvl9I94A3O5k6/MYzmyjkzS7A1OOfEN1CDRA3K4fM4u06dpurq6w8Jv96luR4+ZNCdi
+BpHALkSJrEBvah5uTH1U1QYqMNNVmUthRQYlMmJ7orGS1R1kX0r6uxxlgQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGRzCCBC+gAwIBAgITOQAArQeWAgb7XrO7PQAAAACtBzANBgkqhkiG9w0BAQsFADBKMQswCQYD
+VQQGEwJJTDEdMBsGA1UEChMUR292ZXJubWVudCBvZiBJc3JhZWwxHDAaBgNVBAMTE1RBTVVaLURl
+dmljZXMgQ0EgRzIwHhcNMjMxMTA1MDYyNzI1WhcNMjgwMjIwMDkzODM3WjBqMQswCQYDVQQGEwJJ
+TDEPMA0GA1UECBMGSXNyYWVsMRIwEAYDVQQHEwlKZXJ1c2FsZW0xDDAKBgNVBAoTA1BNTzEMMAoG
+A1UECxMDQ0lPMRowGAYDVQQDExFlbmNyeXB0aW9uLmdvdi5pbDCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAM9GAtK7cc+pZ5wMoTYq6wRLqUPOP+eei6XwHtgDiS45oUm7LKmnF1aRCK4m
+uTzqihJzPEZrFfjeL7Jrz2lUn87zAxEK7L+pe9GmwlmrGEyRaw3pXKrc0Gy+1cWb4vFRr4RZ2rK5
+HwlFpAB86ekTx6Uv1E6U1UePKbZRlOLBDHM637yjNrqcbKgf+KzDXkVICKGzfmT63g7xDlzchE9W
+k7f4XWxq8zYhn9UL2O38QU82f2j1WnKZi689IQ/XMnQSF/M79+zHHcTvBMSaF1/c/Vuk+HBYwtDc
+fcVHQ1b/gCnq8Une9j4Mz7xpBAww9w0PeTyaen5uKGPKP2qZhy31/CMCAwEAAaOCAgQwggIAMB0G
+A1UdDgQWBBRQ13wKIIH8CzUK3yjP/7/jKBRUEzAfBgNVHSMEGDAWgBS1Q9AOxGD5aPOAPtj0UJZ9
+bJnZaTBuBgNVHR8EZzBlMGOgYaBfhi1odHRwOi8vY3JsLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFt
+dXpEZXZHMi5jcmyGLmh0dHA6Ly9jcmwyLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpEZXZHMi5j
+cmwwgYUGCCsGAQUFBwEBBHkwdzA5BggrBgEFBQcwAoYtaHR0cDovL2NybC50YW11ei5nb3YuaWwv
+cHVibGljL1RhbXV6RGV2RzIuY2VyMDoGCCsGAQUFBzAChi5odHRwOi8vY3JsMi50YW11ei5nb3Yu
+aWwvcHVibGljL1RhbXV6RGV2RzIuY2VyMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIKAgSyC
++tk4gfWVMvbxU4KsrQoYh5TORYWGzHQCAWQCAQgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMBMAsGA1UdDwQEAwIEsDAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMB
+MDMGA1UdEQQsMCqCEWVuY3J5cHRpb24uZ292LmlsghV3d3cuZW5jcnlwdGlvbi5nb3YuaWwwDQYJ
+KoZIhvcNAQELBQADggIBAAlumDd4ZxXzqIG6ECIBBQuikGS9EAUoF2fCngHiplPITEER6qiVl3Vy
+HiXrrvpU3giVOC/nUSrrKJ8sJtk5NAucqvSLBTfK/81itDJX2naeLbSAnqs+zh9twDOQh7rwDaYN
+hsSd3eyInGzt8SlvPQQY1XIpyoKICsKKRsd5NB/ibnmojF5+x24Zo7mKbA6o1qJMzcWCt3WGO7z6
+J9I/Av+N90PT+o/bcAZ9006MUnEJvHwPzTNc3tPiX2xhlmw2EUjHaBzZt9ULV9G7vCW+T01eOB8Z
+iQzmEHkqYz68IZLvj8DYDkMWkzqSU0ElYtzrx9WtesxjxOKAVlvk2gZaJ3Zjn5pU292463EniIVm
+Q2bnFRfDtuDAAb4aCrQcEng0yd9d2jDsrepZ/9Mg6zCeyhVBfvpHz0EkpDQOLOMnhGpGTWY4b/FC
+BuOurHHp84vo8I+JH7glhLa20ab8cg0RfSWOHbfzm/SIXwT3je9C/tfP4ni0RrvFZBoJCb6zHraT
+A8eJ5xDxXRV0KQFvZtTfhnzPuB6zKGU8Ci8iqH0bDX8ooeIn/CLiLrHPhhADXB+FwFhQNdgyXdJv
+nurPrBJ9NdWcWHTQ6BiMEF4nplDLQ3xM8fDZu6zMzvaLUpFdEVeB4AR/l+5eMWWAhQT5mVkPGFOs
+MU4QW58NPc2iA8TwxBB0
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+</md:KeyDescriptor>
+<md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.gov.il/nidp/saml2/soap" index="0" isDefault="true"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.gov.il/nidp/saml2/slo" ResponseLocation="https://login.gov.il/nidp/saml2/slo_return"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.gov.il/nidp/saml2/slo" ResponseLocation="https://login.gov.il/nidp/saml2/slo_return"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.gov.il/nidp/saml2/soap"/>
+<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.gov.il/nidp/saml2/rni" ResponseLocation="https://login.gov.il/nidp/saml2/rni_return"/>
+<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.gov.il/nidp/saml2/rni" ResponseLocation="https://login.gov.il/nidp/saml2/rni_return"/>
+<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.gov.il/nidp/saml2/soap"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.gov.il/nidp/saml2/sso"/>
+<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.gov.il/nidp/saml2/sso"/>
+<md:NameIDMappingService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.gov.il/nidp/saml2/soap"/>
+</md:IDPSSODescriptor>
+<md:SPSSODescriptor ID="idXoBPR8fHYExKZ4Y32YKGL_oqS2Q" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGKjCCBBKgAwIBAgITOQAArQgPdzmrJon2eQAAAACtCDANBgkqhkiG9w0BAQsFADBKMQswCQYD
+VQQGEwJJTDEdMBsGA1UEChMUR292ZXJubWVudCBvZiBJc3JhZWwxHDAaBgNVBAMTE1RBTVVaLURl
+dmljZXMgQ0EgRzIwHhcNMjMxMTA1MDYyODU2WhcNMjgwMjIwMDkzODM3WjBnMQswCQYDVQQGEwJJ
+TDEPMA0GA1UECBMGSXNyYWVsMRIwEAYDVQQHEwlKZXJ1c2FsZW0xDDAKBgNVBAoTA1BNTzEMMAoG
+A1UECxMDQ0lPMRcwFQYDVQQDEw5zaWduaW5nLmdvdi5pbDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAMKOy1JqjOpm4y8kIFwc6B8aZfFwFgJ1dxYTL2YnuCbb8CThR+iFx//9t5KyluK/
+OFC8wyCo9lEbam/mMQQWSrNIj3U7nxrrZaMENEvOTSiPP2HhRPnLcu5e3aLAZMF/Kpv7S955Dxoa
+iUkEHGkc50LzOVAskEB9QsYpqvEU/OQ4thmOOJvz4X+Qop1ASjwl5WKOGjWI1J8XiDSoQb0tTrzw
+xXaY/zlDInhK/X1HocfgGNuJhHvNIX56Xri7mJfr2yiN8D/blH3F/LzDJRBnCoC/iiNJu6JdhdY6
+wzQtvCVfAPfk5qwa2Gr4Rjp6Jip+3Mq2WiAx7oJS5Jw3PknvFxUCAwEAAaOCAeowggHmMB0GA1Ud
+DgQWBBQpaZ7+xf8MWm7RgWAy3j0I7WRc6jAfBgNVHSMEGDAWgBS1Q9AOxGD5aPOAPtj0UJZ9bJnZ
+aTBuBgNVHR8EZzBlMGOgYaBfhi1odHRwOi8vY3JsLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpE
+ZXZHMi5jcmyGLmh0dHA6Ly9jcmwyLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpEZXZHMi5jcmww
+gYUGCCsGAQUFBwEBBHkwdzA5BggrBgEFBQcwAoYtaHR0cDovL2NybC50YW11ei5nb3YuaWwvcHVi
+bGljL1RhbXV6RGV2RzIuY2VyMDoGCCsGAQUFBzAChi5odHRwOi8vY3JsMi50YW11ei5nb3YuaWwv
+cHVibGljL1RhbXV6RGV2RzIuY2VyMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIKAgSyC+tk4
+gfWVMvbxU4KsrQoYh5TORYWGzHQCAWQCAQgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMB
+MAsGA1UdDwQEAwIEsDAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMBMBkG
+A1UdEQQSMBCCDnNpZ25pbmcuZ292LmlsMA0GCSqGSIb3DQEBCwUAA4ICAQAvUOX0gJ46OSQbCI3w
+6L5KAgP8fSuLJLBVM8J0YSJdcZtzuCMokwWvL6RTbq6WFuTaLZYQv085s/xPw3CIvQMLZCcH5Vot
+BVj2N2r74BL2wVTPOHp26RWpmYIt21DJh2aplSndA31TfGgFam6R1togonx0fqfZj/Zqbam47Vn9
+D4infd+YacGm18+5D9TnbYw4ArqDJjdx9oGg3wj9DjBLYTGJzpQ6bHb/qS+mhsYRHrptIo34Pj4/
+u3QVBLGsNVCiG4NeY9lkCK8LxIjJuibOmCAV2tSjuOnb197Bd9QCRo264gabt/a06jp5Nwi9YH8M
+7INJEWHypUJnnMw7nN2WOt3wyO7T7EPpz0PutTQ3Y2ulT9Mzr2t4oNgopdXdk1/k2Gcl5axgHxG/
+YohGCnKXjZBbuXpN8cVXT5XiHw+iEUczoSHLzDmuDLc+cc4Mz5lbKMiZpzTvWdpmfieGIXVaAUFc
+74VYDIR2BRki8ByOZtOjhUz8MUS96ZuzVEIAIj8j/YaCAKRCXIlIVIj81QZRha/drrvTq2/8avTN
+YhskWgJyaKvl9I94A3O5k6/MYzmyjkzS7A1OOfEN1CDRA3K4fM4u06dpurq6w8Jv96luR4+ZNCdi
+BpHALkSJrEBvah5uTH1U1QYqMNNVmUthRQYlMmJ7orGS1R1kX0r6uxxlgQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+</md:KeyDescriptor>
+<md:KeyDescriptor use="encryption">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGRzCCBC+gAwIBAgITOQAArQeWAgb7XrO7PQAAAACtBzANBgkqhkiG9w0BAQsFADBKMQswCQYD
+VQQGEwJJTDEdMBsGA1UEChMUR292ZXJubWVudCBvZiBJc3JhZWwxHDAaBgNVBAMTE1RBTVVaLURl
+dmljZXMgQ0EgRzIwHhcNMjMxMTA1MDYyNzI1WhcNMjgwMjIwMDkzODM3WjBqMQswCQYDVQQGEwJJ
+TDEPMA0GA1UECBMGSXNyYWVsMRIwEAYDVQQHEwlKZXJ1c2FsZW0xDDAKBgNVBAoTA1BNTzEMMAoG
+A1UECxMDQ0lPMRowGAYDVQQDExFlbmNyeXB0aW9uLmdvdi5pbDCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAM9GAtK7cc+pZ5wMoTYq6wRLqUPOP+eei6XwHtgDiS45oUm7LKmnF1aRCK4m
+uTzqihJzPEZrFfjeL7Jrz2lUn87zAxEK7L+pe9GmwlmrGEyRaw3pXKrc0Gy+1cWb4vFRr4RZ2rK5
+HwlFpAB86ekTx6Uv1E6U1UePKbZRlOLBDHM637yjNrqcbKgf+KzDXkVICKGzfmT63g7xDlzchE9W
+k7f4XWxq8zYhn9UL2O38QU82f2j1WnKZi689IQ/XMnQSF/M79+zHHcTvBMSaF1/c/Vuk+HBYwtDc
+fcVHQ1b/gCnq8Une9j4Mz7xpBAww9w0PeTyaen5uKGPKP2qZhy31/CMCAwEAAaOCAgQwggIAMB0G
+A1UdDgQWBBRQ13wKIIH8CzUK3yjP/7/jKBRUEzAfBgNVHSMEGDAWgBS1Q9AOxGD5aPOAPtj0UJZ9
+bJnZaTBuBgNVHR8EZzBlMGOgYaBfhi1odHRwOi8vY3JsLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFt
+dXpEZXZHMi5jcmyGLmh0dHA6Ly9jcmwyLnRhbXV6Lmdvdi5pbC9wdWJsaWMvVGFtdXpEZXZHMi5j
+cmwwgYUGCCsGAQUFBwEBBHkwdzA5BggrBgEFBQcwAoYtaHR0cDovL2NybC50YW11ei5nb3YuaWwv
+cHVibGljL1RhbXV6RGV2RzIuY2VyMDoGCCsGAQUFBzAChi5odHRwOi8vY3JsMi50YW11ei5nb3Yu
+aWwvcHVibGljL1RhbXV6RGV2RzIuY2VyMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIKAgSyC
++tk4gfWVMvbxU4KsrQoYh5TORYWGzHQCAWQCAQgwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUF
+BwMBMAsGA1UdDwQEAwIEsDAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMB
+MDMGA1UdEQQsMCqCEWVuY3J5cHRpb24uZ292LmlsghV3d3cuZW5jcnlwdGlvbi5nb3YuaWwwDQYJ
+KoZIhvcNAQELBQADggIBAAlumDd4ZxXzqIG6ECIBBQuikGS9EAUoF2fCngHiplPITEER6qiVl3Vy
+HiXrrvpU3giVOC/nUSrrKJ8sJtk5NAucqvSLBTfK/81itDJX2naeLbSAnqs+zh9twDOQh7rwDaYN
+hsSd3eyInGzt8SlvPQQY1XIpyoKICsKKRsd5NB/ibnmojF5+x24Zo7mKbA6o1qJMzcWCt3WGO7z6
+J9I/Av+N90PT+o/bcAZ9006MUnEJvHwPzTNc3tPiX2xhlmw2EUjHaBzZt9ULV9G7vCW+T01eOB8Z
+iQzmEHkqYz68IZLvj8DYDkMWkzqSU0ElYtzrx9WtesxjxOKAVlvk2gZaJ3Zjn5pU292463EniIVm
+Q2bnFRfDtuDAAb4aCrQcEng0yd9d2jDsrepZ/9Mg6zCeyhVBfvpHz0EkpDQOLOMnhGpGTWY4b/FC
+BuOurHHp84vo8I+JH7glhLa20ab8cg0RfSWOHbfzm/SIXwT3je9C/tfP4ni0RrvFZBoJCb6zHraT
+A8eJ5xDxXRV0KQFvZtTfhnzPuB6zKGU8Ci8iqH0bDX8ooeIn/CLiLrHPhhADXB+FwFhQNdgyXdJv
+nurPrBJ9NdWcWHTQ6BiMEF4nplDLQ3xM8fDZu6zMzvaLUpFdEVeB4AR/l+5eMWWAhQT5mVkPGFOs
+MU4QW58NPc2iA8TwxBB0
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+</md:KeyDescriptor>
+<md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.gov.il/nidp/saml2/spsoap" index="0" isDefault="true"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.gov.il/nidp/saml2/spslo" ResponseLocation="https://login.gov.il/nidp/saml2/spslo_return"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.gov.il/nidp/saml2/spslo" ResponseLocation="https://login.gov.il/nidp/saml2/spslo_return"/>
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.gov.il/nidp/saml2/spsoap"/>
+<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.gov.il/nidp/saml2/sprni" ResponseLocation="https://login.gov.il/nidp/saml2/sprni_return"/>
+<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.gov.il/nidp/saml2/sprni" ResponseLocation="https://login.gov.il/nidp/saml2/sprni_return"/>
+<md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.gov.il/nidp/saml2/spsoap"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.gov.il/nidp/saml2/spassertion_consumer" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.gov.il/nidp/saml2/spassertion_consumer" index="1"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://login.gov.il/nidp/saml2/spassertion_consumer" index="2"/>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="en">Gov-IDS-Prod</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="en">Gov-IDS-Prod</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="en">www.gov.il</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other"/>
+</md:EntityDescriptor>
