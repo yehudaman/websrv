@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="I3bb2f8fd2da581f0" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://idp-hsvirtualcasedev.mof.org.il/saml/idp/profile/redirectorpost/sso">
+	<IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<KeyDescriptor>
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDXDCCAkSgAwIBAgIEFIGtnDANBgkqhkiG9w0BAQsFADBwMQswCQYDVQQGEwJJTDEPMA0GA1UECBMGSXNyYWVsMRIwEAYDVQQHEwlKZXJ1c2FsZW0xDDAKBgNVBAoTA01vRjELMAkGA1UECxMCSVQxITAfBgNVBAMTGElkcC1TZWxmLVNpZ24ubW9mLm9yZy5pbDAeFw0yMDExMjYwNzI4MjhaFw0yNTExMjUwNzI4MjhaMHAxCzAJBgNVBAYTAklMMQ8wDQYDVQQIEwZJc3JhZWwxEjAQBgNVBAcTCUplcnVzYWxlbTEMMAoGA1UEChMDTW9GMQswCQYDVQQLEwJJVDEhMB8GA1UEAxMYSWRwLVNlbGYtU2lnbi5tb2Yub3JnLmlsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArcfMED9TLs4JMons5uiBzbDC777e+a3lWph4fBLF8jaPGzTQs1rKKDGDkTyMXjL9t6R0Dl8Mgk7wPwBDuGFI6yzeuj6ufr9lULbywZ/rjM/jSzzZdbNsceDvfc8YCq03jbJevwxR2i7qs6WLjMn44Ev8F0eONZT2/+QI3ErBscf6XfdeTbbrXEYerZYq1eb3q4v15kCBIJ/pl/qqvnISfHaKe0I5FWq7WWSIqSIukq6lzAOUvEY9P3mAZp7F99z5uzdkATuhfeqWmfY+SWGSQShOsuROJ5rBsrunY+tot3tvAK4OCbPzLLYjhS6QmmwbYqfTHaXSKjYcX9ZULqnoewIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCVEKQKyxdHoF/TLCyu+SaTZCW1H6jLcl99WW0IwOM4ahxGfOPX2qlb2lHWivzUW9kSrfIyeDKFHbIWoBj/3xg8HvpVq81xI7jPT7di4PDoO12PzDpxqKHvLzMtrfxH5X5WQID1ciNACY6eTzF8eRTZ7AgN6oN5+BH8aRdFvNPiogiaNRpnylKCFtETFGWXV4tOPZI4JoKWf62xWIzW5qiqalv7Eax2/DCWobALx07ySSGWdZUpTnx+PA8UwANinjemUdq6N5J9Ej5iGFjy/Y/72Z0YhR4T/WxQekO0Sq6eB0EYjS2Xz30uilwcTETffzYDl3VCgDwm82aigCv0EoWb</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</KeyDescriptor>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-hsvirtualcasedev.mof.org.il/saml/idp/profile/post/sls" ResponseLocation="https://idp-hsvirtualcasedev.mof.org.il/saml/idp/profile/post/slr">
+		</SingleLogoutService>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp-hsvirtualcasedev.mof.org.il/saml/idp/profile/redirect/sls" ResponseLocation="https://idp-hsvirtualcasedev.mof.org.il/saml/idp/profile/redirect/slr">
+		</SingleLogoutService>
+		<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-hsvirtualcasedev.mof.org.il/saml/idp/profile/redirectorpost/sso">
+		</SingleSignOnService>
+		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp-hsvirtualcasedev.mof.org.il/saml/idp/profile/redirectorpost/sso">
+		</SingleSignOnService>
+	</IDPSSODescriptor>
+</EntityDescriptor>
