@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="I17180933952bdc6" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://idp-kezev-dev.mof.org.il/saml/idp/profile/redirectorpost/sso">
+	<IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<KeyDescriptor>
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDXDCCAkSgAwIBAgIEHcvuajANBgkqhkiG9w0BAQsFADBwMQswCQYDVQQGEwJJTDEPMA0GA1UECBMGSXNyYWVsMRIwEAYDVQQHEwlKZXJ1c2FsZW0xDDAKBgNVBAoTA01vRjELMAkGA1UECxMCSVQxITAfBgNVBAMTGElkcC1TZWxmLVNpZ24ubW9mLm9yZy5pbDAeFw0yNTExMDQwNjE1MDZaFw0zMDExMDQwNjE1MDZaMHAxCzAJBgNVBAYTAklMMQ8wDQYDVQQIEwZJc3JhZWwxEjAQBgNVBAcTCUplcnVzYWxlbTEMMAoGA1UEChMDTW9GMQswCQYDVQQLEwJJVDEhMB8GA1UEAxMYSWRwLVNlbGYtU2lnbi5tb2Yub3JnLmlsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArcfMED9TLs4JMons5uiBzbDC777e+a3lWph4fBLF8jaPGzTQs1rKKDGDkTyMXjL9t6R0Dl8Mgk7wPwBDuGFI6yzeuj6ufr9lULbywZ/rjM/jSzzZdbNsceDvfc8YCq03jbJevwxR2i7qs6WLjMn44Ev8F0eONZT2/+QI3ErBscf6XfdeTbbrXEYerZYq1eb3q4v15kCBIJ/pl/qqvnISfHaKe0I5FWq7WWSIqSIukq6lzAOUvEY9P3mAZp7F99z5uzdkATuhfeqWmfY+SWGSQShOsuROJ5rBsrunY+tot3tvAK4OCbPzLLYjhS6QmmwbYqfTHaXSKjYcX9ZULqnoewIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA6LVe1NNB/16UWXPnp6QDOqWPSRVZwbP0DATT8unH4FUCCmlgl7Igu/Lrvo5m3gcmgu/gpauIBMF6c7fIB1ucqhCCtjOCxO9ZfcX80zb1zKp02gvYz87gGMorf7iooaiLwxWIAwWUAzc85h8plq2PmJL5L/67dB/8iBDpA+bQdk4WaFGvt6A2JljAtW3XxnM3lVGONSCvZMEcOG+aDA6fYuRGfkNmE6z+6SK3+mi1RYsIkjUYbht34qgbUEzxCp/4lUwcOxZNW/WRe1IxNcHKd3QEAyLyIrOyOymbLzKIylG7Rf/G+Pis++XAt4QkP5AzCJGenqW4c+Z9aY0jq9cAH</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</KeyDescriptor>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-kezev-dev.mof.org.il/saml/idp/profile/post/sls" ResponseLocation="https://idp-kezev-dev.mof.org.il/saml/idp/profile/post/slr">
+		</SingleLogoutService>
+		<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp-kezev-dev.mof.org.il/saml/idp/profile/redirect/sls" ResponseLocation="https://idp-kezev-dev.mof.org.il/saml/idp/profile/redirect/slr">
+		</SingleLogoutService>
+		<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-kezev-dev.mof.org.il/saml/idp/profile/redirectorpost/sso">
+		</SingleSignOnService>
+		<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp-kezev-dev.mof.org.il/saml/idp/profile/redirectorpost/sso">
+		</SingleSignOnService>
+		<saml:Attribute NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified" Name="MOF_Mail">
+		</saml:Attribute>
+	</IDPSSODescriptor>
+</EntityDescriptor>
